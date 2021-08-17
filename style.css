@@ -1,5 +1,5 @@
 main {
-    font-family: 'WindSong', cursive;
+    font-family: 'Lobster', cursive;
     background-color: aquamarine;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -30,10 +30,6 @@ span {
     display: flex;
     justify-content: space-between;
     width: 420px;
-}
-
-.listaElem {
-    font-weight: 600;
 }
 
 #add {
