@@ -1,0 +1,83 @@
+main {
+    font-family: 'WindSong', cursive;
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: dimgray;
+}
+
+.inBox {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 10px;
+    background-color: beige;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.listaElem {
+    font-weight: 600;
+}
+
+#add {
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: dimgray;
+    border-color: dimgray;
+    border-width: 2px;
+    margin-bottom: 30px;
+}
+
+input {
+    border-radius: 5px;
+    border-color: dimgray;
+    border-width: 2px;
+}
+
+#listaBox {
+    border: solid 1px dimgray;
+    border-radius: 5px;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: start;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    cursor: pointer;
+    background: url("./content/check1.svg");
+  }
+  
+input[type="checkbox"]:checked {
+    background: url("./content/check2.svg");
+  }
+
+.myButton {
+    border: none;
+    background: url("./content/del.svg") no-repeat top left;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
